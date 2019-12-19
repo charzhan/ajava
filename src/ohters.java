@@ -50,12 +50,12 @@ class fiel1{
         File file = new File("g:/ftp/Config/1.pol");
         System.out.println(file.isDirectory());
         java.lang.String[] strings ;
-        strings=file.list();
-        for (java.lang.String s:strings
-             ) {
-            System.out.println(s);
+       // strings=file.list();
+       // for (java.lang.String s:strings
+       //      ) {
+       //     System.out.println(s);
 
-        }
+      //  }
         System.out.println(file.getParent());
         File file1 = new File("");
         file1=file.getParentFile();
