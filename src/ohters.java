@@ -1,4 +1,3 @@
-import com.sun.org.apache.xpath.internal.operations.String;
 import org.junit.Test;
 
 import java.io.DataInput;
@@ -8,7 +7,7 @@ import java.util.Date;
 public class ohters{
     @Test
     public void test1(){
-        new fiel1().pow();
+        new fiel1().swws();
 
     }
 }
@@ -50,12 +49,6 @@ class fiel1{
         File file = new File("g:/ftp/Config/1.pol");
         System.out.println(file.isDirectory());
         java.lang.String[] strings ;
-       // strings=file.list();
-       // for (java.lang.String s:strings
-       //      ) {
-       //     System.out.println(s);
-
-      //  }
         System.out.println(file.getParent());
         File file1 = new File("");
         file1=file.getParentFile();
@@ -63,6 +56,16 @@ class fiel1{
         System.out.println(file1);
         file.mkdir();
         file.mkdirs();
+    }
+    public  void swws(){
+        File file = new File("c:/WINDOWS");
+        File file1 = new File(" ");
+        File[] files = file.listFiles();
+        for (file1:fi
+             ) {
+
+        }
+
     }
 
 }
