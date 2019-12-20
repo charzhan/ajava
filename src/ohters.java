@@ -2,7 +2,10 @@ import org.junit.Test;
 
 import java.io.DataInput;
 import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
+import java.util.Iterator;
 
 public class ohters{
     @Test
@@ -61,9 +64,15 @@ class fiel1{
         File file = new File("c:/WINDOWS");
         File file1 = new File(" ");
         File[] files = file.listFiles();
-        for (file1:fi
-             ) {
-
+//        for (int i = 0; i <files.length ; i++) {
+//            System.out.println(files[i].toString());
+//        }
+        ArrayList<File> files1 = new ArrayList<>(files.length);
+        boolean b = Collections.addAll(files1, files);
+        Iterator<File> iterator = files1.iterator();
+        while (iterator.hasNext()){
+            File file2 =  iterator.next();
+            System.out.println("文件名："+file2.toString()+"----||||||   文件长度为"+file2.length());
         }
 
     }
