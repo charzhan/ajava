@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc011a78-88fb-4fdd-bf61-4e910b68ca12" name="Default Changelist" comment="this is fri">
-      <change afterPath="$PROJECT_DIR$/out/production/ajava/fiel1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ajava/ohters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bc011a78-88fb-4fdd-bf61-4e910b68ca12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ohters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ohters.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +168,7 @@
       <workItem from="1576732645718" duration="680000" />
       <workItem from="1576745276985" duration="3867000" />
       <workItem from="1576830663119" duration="4355000" />
-      <workItem from="1577181186878" duration="9000" />
+      <workItem from="1577181186878" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1576650716647</created>
@@ -193,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576835034779</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="this is fri">
+      <created>1577181203173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577181203173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

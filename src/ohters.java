@@ -72,6 +72,7 @@ class fiel1{
         Iterator<File> iterator = files1.iterator();
         while (iterator.hasNext()){
             File file2 =  iterator.next();
+            System.out.println("ssds");
             System.out.println("文件名："+file2.toString()+"----||||||   文件长度为"+file2.length());
         }
 
